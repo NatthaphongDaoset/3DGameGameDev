@@ -563,7 +563,7 @@ const InternalConfig = function (initConfig) { // eslint-disable-line no-unused-
 				} else if (path.endsWith('.side.wasm')) {
 					return `${loadPath}.side.wasm`;
 				} else if (path.endsWith('.wasm')) {
-					return `${loadPath}.wasm`;
+					return 'https://github.com/NatthaphongDaoset/3DGameGameDev/releases/download/1.0.0/index.wasm';
 				}
 				return path;
 			},
